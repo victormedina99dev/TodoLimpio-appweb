@@ -1,0 +1,394 @@
+#menu{
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 15px;
+            border-radius: 100px;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.531);
+        }
+        #menu:hover{
+            box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.782);
+            
+        }
+
+        body{
+            font-family: sans-serif;
+            margin: 0;
+        }
+
+        p{
+            text-align: center;
+            font-size: 1.2em;
+            margin: 60px;
+            color: rgb(22, 155, 164);
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        
+        .nav-link{
+            color: rgb(0, 0, 0);
+            
+        }
+
+        header{
+        display: flex;
+        min-height: 70px;
+        justify-content: space-between;
+        background-color: rgb(22, 155, 164);
+        color: white;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        }
+        h1{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: rgb(22, 155, 164);
+        }
+
+        h3{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: rgb(22, 155, 164);
+        }
+        h4{
+            color:rgb(22,155,164);
+            text-align: center;
+        }        
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img{
+            height: 70px;
+            margin-right: 10px;
+        }
+        #inicio{
+            height: 15px;
+            margin-right: 0px;
+
+        } 
+        
+
+        nav a{
+            font-weight: 600;
+            margin-right: 10px;
+        }
+        details{
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        nav a:hover {
+            color: black;
+        }
+
+        p:hover{
+            font-size: 20px;
+            
+
+        }
+
+
+        #chica_bedel{
+            width: 50%;
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);
+
+            
+
+
+}
+
+        @media (max-width:700px) {
+            header {
+                flex-direction: column;
+            }
+            
+            nav {
+                padding: 10px 0px;
+            }
+
+            nav a:hover {
+                color: black;
+                
+            }
+        }
+        #bienvenida{
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+        }
+.link_contacto{
+        display: block;   /* Convierte el link en un elemento de bloque */
+    width: 200px;     /* Dale un ancho definido para que margin: auto funcione */
+    margin: 0 auto;   /* Centra el elemento de bloque horizontalmente */
+    padding: 10px;
+    background-color: lightblue; /* Solo para visualización */
+    text-align: center; /* Opcional: Centra el texto DENTRO del link si el ancho es mayor que el texto */
+    text-decoration: none;
+    color: #000000;
+    border-radius: 15px;
+    box-shadow: #00000067 3px 3px 3px;
+    }
+
+.link_contacto:hover{
+    padding: 11px;
+    background-color: rgb(22, 155, 164);
+    color: white
+}    
+
+.link_contacto:active{
+    box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.782);
+}    
+ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align:center ;
+    color: rgb(22,155,164);
+    font-size: 18px;
+    margin:40px;
+}
+li{
+    margin: 40px 0;
+    font-size: 18px;
+}
+li:hover{
+    color: rgb(22,155,164);
+    font-size: 20px;
+}
+#servicios_que_ofrecemos{
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin:  auto;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+#img_jardineria{
+width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin:  auto;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);    
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+#img_limpieza_hogar{
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin:  auto;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+#img_limpieza_oficina{
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin:  auto;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+#contenedor_servicios {
+    margin: 40px auto;
+    width: 100%;
+}
+.servicios_flex {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* <-- Cambia flex-start por stretch */
+    gap: 40px;
+    margin-top: 40px;
+}
+#contenedor_hogar,
+#contenedor_oficina,
+#contenedor_jardineria {
+    background-color: rgba(0, 0, 0, 0.457);
+    border-radius: 20px;
+    color: #fff !important;
+    padding: 20px;
+    max-width: 260px;    /* Reduce el ancho máximo */
+    min-width: 180px;    /* Reduce el ancho mínimo */
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+#contenedor_hogar img,
+#contenedor_oficina img,
+#contenedor_jardineria img {
+    width: 80%;          /* Haz las imágenes más pequeñas dentro del div */
+    max-width: 120px;
+    height: auto;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+#contenedor_hogar p,
+#contenedor_oficina p,
+#contenedor_jardineria p {
+    color: #fff !important;
+    margin: 10px 0 !important;
+}
+
+#contenedor_hogar:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+#contenedor_oficina:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+#contenedor_jardineria:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.icono-nav {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.nav-link.active {
+    background-color: #117b85c5;
+    color: #fff !important;
+    border-radius: 20px;
+    padding: 8px 16px;
+    box-shadow:inset 0 2px 8px rgba(0, 0, 0, 0.445);
+}
+
+img{
+    transition: transform 0.3s ease;
+    text-transform: uppercase;
+}
+
+/* Elimina o comenta estas líneas: */
+/*
+.carousel-inner {
+    height: auto;
+    background: none;
+    display: block;
+}
+
+.carousel-item {
+    display: block;
+    align-items: unset;
+    justify-content: unset;
+}
+*/
+
+/* Mantén solo la regla para la imagen si lo deseas */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    background: none;
+    display: block;
+}
+
+.carousel-indicators{
+    background-color: rgba(0, 0, 0, 0.304);
+    border-radius: 15px;
+}
+
+.card-title{
+    color: rgb(255, 255, 255);
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.457);
+    border-radius: 20px;
+    color: #fff !important;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);
+    border: 0px solid transparent;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-text{
+    color:white;
+}
+
+.card-img-top{
+    border-radius: 20px;
+
+
+}
+
+.btn{
+    background-color: rgb(22, 155, 164);
+    
+}
+footer{
+    background-color: rgb(22, 155, 164);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#text-footer{
+    color: white;
+    
+}
+
+#button-footer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#button-footer:hover{
+    background-color: rgb(22, 155, 164);
+    color: white;
+    box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.782);
+}
+
+.nombre-empresa {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
